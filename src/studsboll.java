@@ -14,11 +14,7 @@ public class studsboll {
     }
 
     private static boolean checkHeight(double h) {
-        if (h<=0||h>=100) {
-            return true;
-        } else {
-            return false;
-        }
+        return h <= 0 || h >= 100;
     }
 
     private static double updateHeight(double h, double v) {
